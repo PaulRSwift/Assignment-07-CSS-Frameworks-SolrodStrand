@@ -22,6 +22,12 @@ img {
 
 background-color: #69A77C;
 
+.learn-more-btn button{
+   color: #FFF;
+   border-radius: 5%;
+   background-color: #69A77C;
+
+}
 
 .intro-bar{
    background-color: #FFF;
@@ -33,27 +39,9 @@ background-color: #69A77C;
 .small-but-banner{
    background: url('../images/assets/solrod-team-background.jpg')center center no-repeat;
       background-size: cover;
-   display: none;
-@media screen and (min-width: 768px){
+      display: none;
+@media screen and (min-width: 990px){
    display: block;}}
-
-
-// @media screen and (min-width: 768px){
-//
-//       // display: block;
-//
-// }
-
-
-// .small-but {
-//    display: none;
-//    background-color: #69A77C;
-//    @include media-query ($screen-size) {
-//    background: url('../images/assets/solrod-team-background.jpg')center center no-repeat;
-//    padding: 120px;
-// }
-// }
-
 
 
 
