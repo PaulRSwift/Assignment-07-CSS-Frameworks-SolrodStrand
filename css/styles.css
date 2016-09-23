@@ -373,9 +373,10 @@ img {
 
 #app-container {
   background-color: #69A77C; }
-  #app-container .learn-more-btn button {
+  #app-container .learn-more-btn {
     color: #FFF;
     border-radius: 5%;
+    border: 2px solid #FFF;
     background-color: #69A77C; }
   #app-container .intro-bar {
     background-color: #FFF; }
