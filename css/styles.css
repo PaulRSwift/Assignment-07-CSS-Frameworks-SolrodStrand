@@ -377,6 +377,13 @@ img {
     background-color: #FFF; }
   #app-container .bio-container {
     padding-top: 50px; }
+  #app-container .small-but-banner {
+    background: url("../images/assets/solrod-team-background.jpg") center center no-repeat;
+    background-size: cover;
+    display: none; }
+    @media screen and (min-width: 768px) {
+      #app-container .small-but-banner {
+        display: block; } }
   #app-container .employee-art-grants {
     padding: 30px; }
   #app-container .breath-of-fire {

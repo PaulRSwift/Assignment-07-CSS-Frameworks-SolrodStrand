@@ -6,6 +6,7 @@
    }
 }
 
+$screen-size: 768px;
 
 
 *{ box-sizing: border-box }
@@ -28,6 +29,35 @@ background-color: #69A77C;
 .bio-container{
    padding-top: 50px;
 }
+
+.small-but-banner{
+   background: url('../images/assets/solrod-team-background.jpg')center center no-repeat;
+      background-size: cover;
+   display: none;
+@media screen and (min-width: 768px){
+   display: block;}}
+
+
+// @media screen and (min-width: 768px){
+//
+//       // display: block;
+//
+// }
+
+
+// .small-but {
+//    display: none;
+//    background-color: #69A77C;
+//    @include media-query ($screen-size) {
+//    background: url('../images/assets/solrod-team-background.jpg')center center no-repeat;
+//    padding: 120px;
+// }
+// }
+
+
+
+
+
 .employee-art-grants {
    padding: 30px;
 }
@@ -55,12 +85,4 @@ background-color: #69A77C;
    background-color: #FFF;
    padding: 25px;
 }
-
- @media screen and (min width: 768px){
-
-
-   }
-
-
-
 }
