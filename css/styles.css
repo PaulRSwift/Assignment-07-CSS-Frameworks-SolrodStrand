@@ -407,5 +407,11 @@ img {
   #app-container .social-bar {
     background-color: #FFF;
     padding: 25px; }
+  #app-container .social-icon {
+    width: 75px;
+    display: inline-block;
+    margin-left: 250px;
+    padding-left: 10px;
+    padding-right: 10px; }
 
 /*# sourceMappingURL=styles.css.map */
